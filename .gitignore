@@ -1,0 +1,19 @@
+# Secrets and credentials - never commit these
+.env
+*.pem
+*.key
+*.pfx
+secrets.*
+credentials.*
+
+# Real incident evidence and exports
+evidence/
+*.pcap
+*.log
+*.csv
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
